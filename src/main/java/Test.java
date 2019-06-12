@@ -16,6 +16,8 @@ public class Test {
 		
 		System.out.println(JSONObject.fromObject(map).toString());
 		
+		System.out.println("测试公司提交GITHUB");
+		
 		
 	}
 
