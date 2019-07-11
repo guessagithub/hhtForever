@@ -23,7 +23,7 @@ public class CreateImgFromPDF {
 	// 获取项目根路径
 	static String rootPath = Commons.getProjectPath();
 	// 原始PDF文件路径
-	static String pdfPath = rootPath + "\\示例文件\\文件读写\\PDF\\PDF按页生成图片\\小牛普惠分期咨询服务协议(普惠与借款人）.pdf";
+	static String pdfPath = rootPath + "\\示例文件\\文件读写\\PDF\\PDF按页生成图片\\PDF按页生成图片模板.pdf";
 	// 图片存放路径
 	static String imgsPath = rootPath + "\\示例文件\\文件读写\\PDF\\PDF按页生成图片\\";
 	// 文件名
