@@ -16,7 +16,7 @@ import com.itextpdf.text.pdf.PdfStamper;
 
 /**
  * 
- * 需要引入包：itextpdf-5.5.13.1.jar 、 itextpdf-5.5.13.1.jar
+ * 需要引入包：itextpdf-5.5.13.1.jar 、 itext-asian-5.2.0.jar
  * 
  */
 public class FillForm {

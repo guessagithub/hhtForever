@@ -6,12 +6,12 @@ public class 冒泡排序 {
 
 	public static void main(String[] args) {
 		
-		int[] nums = {2,8,3,6,9,0,5,7};
+		Integer[] nums = {2,8,3,6,9,0,5,7};
 		maopao(nums);
 		
 	}
 
-	private static void maopao(int[] nums) {
+	private static void maopao(Integer[] nums) {
 		int temp;
 		int size = nums.length;
 		for(int i=0;i<size-1;i++) {

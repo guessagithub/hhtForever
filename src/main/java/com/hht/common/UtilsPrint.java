@@ -5,37 +5,31 @@ import java.util.List;
 import java.util.ListIterator;
 
 public class UtilsPrint {
-
-	public static void printList(List<String> list){
+	
+	
+	public static <T> void printList(List<T> list) {
 		System.out.println("-----------------------------------------------------------------");
-		for(String value : list){
+		for(T value : list){
 			System.out.println(value);
 		}
 	}
 
-	public static void printListInverted(List<String> list){
+	public static <T> void printListInverted(List<T> list){
 		System.out.println("-----------------------------------------------------------------");
-		ListIterator<String> listIterator = list.listIterator(list.size());
+		ListIterator<T> listIterator = list.listIterator(list.size());
 		while(listIterator.hasPrevious()){
 			System.out.println(listIterator.previous());
 		}
 	}
 
 
-	public static void printArray(Object[] values){
+	public static <T> void printArray(T[] values){
 		System.out.println("-----------------------------------------------------------------");
-		for(Object value : values){
+		for(T value : values){
 			System.out.println(value);
 		}
 	}
 
-
-	public static void printArray(int[] values){
-		System.out.println("-----------------------------------------------------------------");
-		for(int value : values){
-			System.out.println(value);
-		}
-	}
 	
 	
 	
@@ -52,5 +46,6 @@ public class UtilsPrint {
 		printListInverted(list);
 		
 	}
+
 
 }
